@@ -1,0 +1,117 @@
+.footer {
+  line-height: 1.71;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  & address {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer-adress_container {
+  margin-right: 70px;
+}
+
+.footer-adress_link {
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 60%);
+  transition: color var(--primary-time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  &:not(:nth-last-child(-n + 1)) {
+    margin-bottom: 9px;
+  }
+  &.adress {
+    color: var(--secondary-text-color);
+  }
+}
+
+.footer-adress_logo.logo {
+  display: block;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.adress-phyth {
+  color: var(--secondary-text-color);
+}
+
+.footer_container-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-social_links-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 93px;
+}
+
+.footer-social_title {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.footer-social_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.footer-social_item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--primary-time-duration)
+    cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: #2196f3;
+    }
+}
+
+.footer-social_link-img {
+  fill: var(--secondary-text-color);
+}
+
+.footer-submit_head {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-submit_form-input-wrapper {
+  display: flex;
+}
+
+.footer-submit_form-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  color: var(--secondary-text-color);
+  background: none;
+  &::placeholder {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
