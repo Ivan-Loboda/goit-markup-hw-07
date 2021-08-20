@@ -26,9 +26,9 @@
   &:not(:nth-last-child(-n + 1)) {
     margin-bottom: 9px;
   }
-  &.adress {
-    color: var(--secondary-text-color);
-  }
+  // &.adress {
+  //   color: var(--secondary-text-color);
+  // }
 }
 
 .footer-adress_logo.logo {
