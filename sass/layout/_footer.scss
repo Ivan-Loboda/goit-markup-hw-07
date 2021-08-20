@@ -17,8 +17,8 @@
 .footer-adress_link {
   font-weight: 400;
   font-style: normal;
-  color: rgba(255, 255, 255, 60%);
-  transition: color var(--primary-time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--primary-time-duration)  ;
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -79,7 +79,7 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--primary-time-duration)
-    cubic-bezier(0.4, 0, 0.2, 1);
+     ;
     &:hover,
     &:focus {
       background-color: #2196f3;

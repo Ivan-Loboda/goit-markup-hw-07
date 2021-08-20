@@ -14,7 +14,7 @@
   border-radius: 50%;
   background-color: #ffffff;
   transition: background-color var(--primary-time-duration)
-    cubic-bezier(0.4, 0, 0.2, 1);
+     ;
       &:hover,
       &:focus {
         background-color: #2196f3;
@@ -27,7 +27,7 @@
 
 .social-list_link-img {
   fill: #afb1b8;
-  transition: fill var(--primary-time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--primary-time-duration)  ;
     .social-list_link:hover > &,
     .social-list_link:focus > & {
       fill: var(--secondary-text-color);

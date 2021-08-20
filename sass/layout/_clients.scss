@@ -31,7 +31,7 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border-color var(--primary-time-duration)
-    cubic-bezier(0.4, 0, 0.2, 1);
+     ;
     &:hover,
     &:focus {
       border-color: #2196f3;
@@ -40,7 +40,7 @@
 
 .clients-list_link-img {
   fill: #afb1b8;
-  transition: fill var(--primary-time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--primary-time-duration)  ;
   .clients-list_link:hover > &,
   .clients-list_link:focus > & {
     fill: #2196f3;
